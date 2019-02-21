@@ -14,6 +14,9 @@
   "devices": [ "/dev/mem:/dev/mem:rw" ],
   "privileged": [ "SYS_RAWIO", "SYS_ADMIN", "NET_ADMIN" ],
   "gpio": "true",
+  "full_access": "true",
+  "host_network": true,
+  "hassio_api": true,
   "ports": {
     "5003/tcp": 5003
   },
