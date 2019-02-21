@@ -15,8 +15,4 @@ cd $APPDIR
 ./configure --spi-spidev-device=/dev/spidev0.0 --my-transport=$MYSGW_TRN --my-gateway=$MYSGW_TYPE $MQTT_OPTS
 make && make install
 
-cat /etc/mysensor.conf
-
-rm /etc/mysensor.conf
-
-/usr/local/bin/mysgw
+strace /usr/local/bin/mysgw
