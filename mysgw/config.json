@@ -1,6 +1,6 @@
 {
   "name": "MySensors Gateway",
-  "version": "0.15-debug-3",
+  "version": "0.16",
   "slug": "mysgw",
   "description": "MySensors Gateway Add-on",
   "url": "https://github.com/ghiglie/hassio-addons/addon-mysgw",
