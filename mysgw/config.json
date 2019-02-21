@@ -17,6 +17,11 @@
   "ports": {
     "5003/tcp": 5003
   },
+  "map": [
+    "config:rw",
+    "share:rw",
+    "ssl"
+  ],
   "options": {
     "log_level": "info",
 	"type": "mqtt",
@@ -36,6 +41,6 @@
 	"mqtt_topicout": "str"
   },
   "environment": {
-    "LOG_FORMAT": "{LEVEL}: {MESSAGE}"
+    "LOG_FORMAT": "[{LEVEL}]: {MESSAGE}"
   }
 }
