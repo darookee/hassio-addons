@@ -1,6 +1,6 @@
 {
   "name": "MySensors Gateway",
-  "version": "0.15-debug-2",
+  "version": "0.15-debug-3",
   "slug": "mysgw",
   "description": "MySensors Gateway Add-on",
   "url": "https://github.com/ghiglie/hassio-addons/addon-mysgw",
@@ -13,8 +13,8 @@
   "boot": "auto",
   "devices": [ "/dev/mem:/dev/mem:rw" ],
   "privileged": [ "SYS_RAWIO", "SYS_ADMIN", "NET_ADMIN" ],
-  "gpio": "true",
-  "full_access": "true",
+  "gpio": true,
+  "full_access": true,
   "host_network": true,
   "hassio_api": true,
   "ports": {
