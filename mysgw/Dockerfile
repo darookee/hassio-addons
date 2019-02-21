@@ -12,6 +12,7 @@ COPY rootfs /
 RUN  chmod a+x /run.sh && \ 
      apt-get update && apt-get install -y --force-yes \
      make \
+     strace \
      g++ \
      git \
      && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* ~/.cache \
